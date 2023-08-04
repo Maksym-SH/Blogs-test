@@ -1,0 +1,436 @@
+<template>
+  <div id="page">
+    <div class="container">
+      <header id="masthead" class="site-header">
+        <div class="site-branding">
+          <h1 class="site-title"><NuxtLink to="/" rel="home">Moschino</NuxtLink></h1>
+          <h2 class="site-description">Minimalist Portfolio HTML Template</h2>
+        </div>
+        <nav id="site-navigation" class="main-navigation">
+          <button class="menu-toggle">Menu</button>
+          <NuxtLink class="skip-link screen-reader-text" to="#content"
+            >Skip to content</NuxtLink
+          >
+          <div class="menu-menu-1-container">
+            <ul id="menu-menu-1" class="menu">
+              <li><NuxtLink to="/">Home</NuxtLink></li>
+              <li><NuxtLink to="/shop">Shop</NuxtLink></li>
+              <li><NuxtLink to="/blog">Blog</NuxtLink></li>
+              <li><NuxtLink to="/elements">Elements</NuxtLink></li>
+              <li>
+                <NuxtLink to="#">Pages</NuxtLink>
+                <ul class="sub-menu">
+                  <li><NuxtLink to="/portfolio-item">Portfolio Item</NuxtLink></li>
+                  <li><NuxtLink to="/shop-single">Shop Item</NuxtLink></li>
+                  <li>
+                    <NuxtLink to="/portfolio-category">Portfolio Category</NuxtLink>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- #masthead -->
+      <div id="content" class="site-content">
+        <div id="primary" class="content-area column full">
+          <main id="main" class="site-main" role="main">
+            <article id="post-37" class="post-37 page type-page status-publish hentry">
+              <header class="entry-header">
+                <h1 class="entry-title">Elements</h1>
+              </header>
+              <!-- .entry-header -->
+              <div class="entry-content">
+                <p>Here are some of the elements you can use with Moschino theme:</p>
+                <p>
+                  <strong># Accordions</strong>
+                </p>
+                <div class="wpcmsdev-accordion">
+                  <div class="accordion-item">
+                    <h3 class="accordion-item-title">
+                      <NuxtLink to="#accordion-item-what-is-lore-ipsum"
+                        ><i class="fa fa-plus icon-for-inactive"></i
+                        ><i class="fa fa-minus icon-for-active"></i>What is Lore
+                        Ipsum</NuxtLink
+                      >
+                    </h3>
+                    <div
+                      id="accordion-item-what-is-lore-ipsum"
+                      class="accordion-item-content"
+                    >
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry&#8217;s standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book. It has survived
+                        not only five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged. It was popularised in
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h3 class="accordion-item-title">
+                      <NuxtLink to="#accordion-item-where-does-it-come-from"
+                        ><i class="fa fa-plus icon-for-inactive"></i
+                        ><i class="fa fa-minus icon-for-active"></i>Where does it come
+                        from</NuxtLink
+                      >
+                    </h3>
+                    <div
+                      id="accordion-item-where-does-it-come-from"
+                      class="accordion-item-content"
+                    >
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry&#8217;s standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book. It has survived
+                        not only five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged. It was popularised in
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h3 class="accordion-item-title">
+                      <NuxtLink to="#accordion-item-why-do-we-use-it"
+                        ><i class="fa fa-plus icon-for-inactive"></i
+                        ><i class="fa fa-minus icon-for-active"></i>Why do we use
+                        it</NuxtLink
+                      >
+                    </h3>
+                    <div
+                      id="accordion-item-why-do-we-use-it"
+                      class="accordion-item-content"
+                    >
+                      <p>
+                        It is a long established fact that a reader will be distracted by
+                        the readable content of a page when looking at its layout. The point
+                        of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using &#8216;Content here,
+                        content here&#8217;, making it look like readable English. Many
+                        desktop publishing packages and web page editors now use Lorem Ipsum
+                        as their default model text, and a search for &#8216;lorem
+                        ipsum&#8217; will uncover many web sites still in their infancy.
+                        Various versions have evolved over the years, sometimes by accident,
+                        sometimes on purpose (injected humour and the like).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <strong># Buttons</strong>
+                </p>
+                <p>
+                  <NuxtLink class="wpcmsdev-button color-red" to="#"
+                    ><span>Button Text</span></NuxtLink
+                  ><NuxtLink class="wpcmsdev-button color-green" to="#"
+                    ><span>Button Text</span></NuxtLink
+                  ><NuxtLink class="wpcmsdev-button color-yellow" to="#"
+                    ><span>Button Text</span></NuxtLink
+                  ><NuxtLink class="wpcmsdev-button color-blue" to="#"
+                    ><span>Button Text</span></NuxtLink
+                  >
+                </p>
+                <p>
+                  <strong># Tabs</strong>
+                </p>
+                <div class="wpcmsdev-tabs">
+                  <div class="tab">
+                    <h3 class="tab-title" data-tab-id="what-is-lore-ipsum">
+                      What is Lore Ipsum
+                    </h3>
+                    <div id="tab-what-is-lore-ipsum" class="tab-content">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry&#8217;s standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book. It has survived
+                        not only five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged. It was popularised in
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tab">
+                    <h3 class="tab-title" data-tab-id="where-does-it-come-from">
+                      Where does it come from
+                    </h3>
+                    <div id="tab-where-does-it-come-from" class="tab-content">
+                      <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        It has roots in a piece of classical Latin literature from 45 BC,
+                        making it over 2000 years old. Richard McClintock, a Latin professor
+                        at Hampden-Sydney College in Virginia, looked up one of the more
+                        obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                        going through the cites of the word in classical literature,
+                        discovered the undoubtable source.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tab">
+                    <h3 class="tab-title" data-tab-id="why-do-we-use-it">
+                      Why do we use it
+                    </h3>
+                    <div id="tab-why-do-we-use-it" class="tab-content">
+                      <p>
+                        It is a long established fact that a reader will be distracted by
+                        the readable content of a page when looking at its layout. The point
+                        of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using &#8216;Content here,
+                        content here&#8217;, making it look like readable English. Many
+                        desktop publishing packages and web page editors now use Lorem Ipsum
+                        as their default model text, and a search for &#8216;lorem
+                        ipsum&#8217; will uncover many web sites still in their infancy.
+                        Various versions have evolved over the years, sometimes by accident,
+                        sometimes on purpose (injected humour and the like).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <strong># Toggle</strong>
+                </p>
+                <div class="wpcmsdev-toggle">
+                  <h3 class="toggle-title">
+                    <NuxtLink to="#toggle-what-is-lore-ipsum"
+                      ><i class="fa fa-plus icon-for-inactive"></i
+                      ><i class="fa fa-minus icon-for-active"></i>WHAT IS LORE
+                      IPSUM</NuxtLink
+                    >
+                  </h3>
+                  <div id="toggle-what-is-lore-ipsum" class="toggle-content">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry&#8217;s standard dummy
+                      text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book. It has survived
+                      not only five centuries, but also the leap into electronic
+                      typesetting, remaining essentially unchanged. It was popularised in
+                      the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                      passages, and more recently with desktop publishing software like
+                      Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                  </div>
+                </div>
+                <div class="wpcmsdev-toggle">
+                  <h3 class="toggle-title">
+                    <NuxtLink to="#toggle-where-does-it-come-from"
+                      ><i class="fa fa-plus icon-for-inactive"></i
+                      ><i class="fa fa-minus icon-for-active"></i>WHERE DOES IT COME
+                      FROM</NuxtLink
+                    >
+                  </h3>
+                  <div id="toggle-where-does-it-come-from" class="toggle-content">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting
+                      industry. Lorem Ipsum has been the industry&#8217;s standard dummy
+                      text ever since the 1500s, when an unknown printer took a galley of
+                      type and scrambled it to make a type specimen book. It has survived
+                      not only five centuries, but also the leap into electronic
+                      typesetting, remaining essentially unchanged. It was popularised in
+                      the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                      passages, and more recently with desktop publishing software like
+                      Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                  </div>
+                </div>
+                <div class="wpcmsdev-toggle">
+                  <h3 class="toggle-title">
+                    <NuxtLink to="#toggle-why-do-we-use-it"
+                      ><i class="fa fa-plus icon-for-inactive"></i
+                      ><i class="fa fa-minus icon-for-active"></i>WHY DO WE USE IT</NuxtLink
+                    >
+                  </h3>
+                  <div id="toggle-why-do-we-use-it" class="toggle-content">
+                    <p>
+                      It is a long established fact that a reader will be distracted by the
+                      readable content of a page when looking at its layout. The point of
+                      using Lorem Ipsum is that it has a more-or-less normal distribution of
+                      letters, as opposed to using &#8216;Content here, content here&#8217;,
+                      making it look like readable English. Many desktop publishing packages
+                      and web page editors now use Lorem Ipsum as their default model text,
+                      and a search for &#8216;lorem ipsum&#8217; will uncover many web sites
+                      still in their infancy. Various versions have evolved over the years,
+                      sometimes by accident, sometimes on purpose (injected humour and the
+                      like).
+                    </p>
+                  </div>
+                </div>
+                <p>
+                  <strong># Columns</strong>
+                </p>
+                <hr />
+                <div class="wpcmsdev-columns">
+                  <div class="column column-width-one-third">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+                      dignissim massa, vel pulvinar est. Nullam euismod massa et interdum
+                      faucibus. Integer ut interdum est, a mollis nisi. Phasellus vitae
+                      aliquam justo. Sed facilisis aliquet elit ut suscipit. Cras sed
+                      dignissim enim.
+                    </p>
+                  </div>
+                  <div class="column column-width-one-third">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+                      dignissim massa, vel pulvinar est. Nullam euismod massa et interdum
+                      faucibus. Integer ut interdum est, a mollis nisi. Phasellus vitae
+                      aliquam justo. Sed facilisis aliquet elit ut suscipit. Cras sed
+                      dignissim enim.
+                    </p>
+                  </div>
+                  <div class="column column-width-one-third">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+                      dignissim massa, vel pulvinar est. Nullam euismod massa et interdum
+                      faucibus. Integer ut interdum est, a mollis nisi. Phasellus vitae
+                      aliquam justo. Sed facilisis aliquet elit ut suscipit. Cras sed
+                      dignissim enim.
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="wpcmsdev-columns">
+                  <div class="column column-width-one-half">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+                      dignissim massa, vel pulvinar est. Nullam euismod massa et interdum
+                      faucibus. Integer ut interdum est, a mollis nisi. Phasellus vitae
+                      aliquam justo. Sed facilisis aliquet elit ut suscipit. Cras sed
+                      dignissim enim.
+                    </p>
+                  </div>
+                  <div class="column column-width-one-half">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+                      dignissim massa, vel pulvinar est. Nullam euismod massa et interdum
+                      faucibus. Integer ut interdum est, a mollis nisi. Phasellus vitae
+                      aliquam justo. Sed facilisis aliquet elit ut suscipit. Cras sed
+                      dignissim enim.
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="wpcmsdev-columns">
+                  <div class="column column-width-one-third">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+                      dignissim massa, vel pulvinar est. Nullam euismod massa et interdum
+                      faucibus.
+                    </p>
+                  </div>
+                  <div class="column column-width-two-thirds">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+                      dignissim massa, vel pulvinar est. Nullam euismod massa et interdum
+                      faucibus. Integer ut interdum est, a mollis nisi. Phasellus vitae
+                      aliquam justo. Sed facilisis aliquet elit ut suscipit. Cras sed
+                      dignissim enim.
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <div class="wpcmsdev-columns">
+                  <div class="column column-width-two-thirds">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+                      dignissim massa, vel pulvinar est. Nullam euismod massa et interdum
+                      faucibus. Integer ut interdum est, a mollis nisi. Phasellus vitae
+                      aliquam justo. Sed facilisis aliquet elit ut suscipit. Cras sed
+                      dignissim enim.
+                    </p>
+                  </div>
+                  <div class="column column-width-one-third">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
+                      dignissim massa, vel pulvinar est. Nullam euismod massa.
+                    </p>
+                  </div>
+                </div>
+                <hr />
+                <p>
+                  <strong># Font Awesome Icons</strong>
+                </p>
+                <p>
+                  All icons from the
+                  <NuxtLink
+                    to="https://fortawesome.github.io/Font-Awesome/icons/"
+                    target="_blank"
+                    >FontAwesome list</NuxtLink
+                  >
+                  are supported.
+                </p>
+                <p>
+                  <i class="fa fa-star fa-lg"></i><i class="fa fa-star fa-2x"></i
+                  ><i class="fa fa-star fa-3x"></i><i class="fa fa-star fa-4x"></i
+                  ><i class="fa fa-star fa-5x"></i>
+                </p>
+                <h4>
+                  <i class="fa fa-heart" style="color: red"></i> We hope you love Moschino
+                  theme as much as we do!
+                </h4>
+              </div>
+              <!-- .entry-content -->
+            </article>
+            <div class="clearfix"></div>
+            <nav class="pagination"></nav>
+          </main>
+          <!-- #main -->
+        </div>
+        <!-- #primary -->
+      </div>
+      <!-- #content -->
+    </div>
+    <!-- .container -->
+    <footer id="colophon" class="site-footer">
+      <div class="container">
+        <div class="site-info">
+          <h1
+            style="
+              font-family: 'Herr Von Muellerhoff';
+              color: #ccc;
+              font-weight: 300;
+              text-align: center;
+              margin-bottom: 0;
+              margin-top: 0;
+              line-height: 1.4;
+              font-size: 46px;
+            "
+          >
+            Moschino
+          </h1>
+          <NuxtLink target="blank" to="https://www.wowthemes.net/"
+            >&copy; Moschino - Free HTML Template by WowThemes.net</NuxtLink
+          >
+        </div>
+      </div>
+    </footer>
+    <NuxtLink to="#top" class="smoothup" title="Back to top"
+      ><span class="genericon genericon-collapse"></span
+    ></NuxtLink>
+  </div>
+</template>
+
+<script setup lang="ts">
+useHead({
+  title: "Moschino | Minimalist Free HTML Portfolio by WowThemes.net",
+});
+</script>
+
+<style scoped>
+@import "https://fonts.googleapis.com/css?family=Oswald:400,500,700%7CRoboto:400,500,700%7CHerr+Von+Muellerhoff:400,500,700%7CQuattrocento+Sans:400,500,700";
+@import "~/assets/css/woocommerce-layout.css";
+@import "~/assets/css/woocommerce-smallscreen.css";
+@import "~/assets/css/woocommerce.css";
+@import "~/assets/css/font-awesome.min.css";
+@import "~/assets/css/style.css";
+@import "~/assets/css/easy-responsive-shortcodes.css";
+</style>
